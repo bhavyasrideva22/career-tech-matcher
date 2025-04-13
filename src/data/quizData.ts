@@ -149,7 +149,7 @@ export const quizQuestions: QuizQuestion[] = [
   {
     id: 'q6',
     type: 'choice',
-    question: 'Choose 3 skills you'd most like to develop:',
+    question: "Choose 3 skills you'd most like to develop:",
     options: [
       {
         id: 'q6a',
