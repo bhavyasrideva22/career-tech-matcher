@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -18,6 +19,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				poppins: ['Poppins', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,7 +65,27 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				ai: {
+					light: '#1EAEDB',
+					DEFAULT: '#1EAEDB',
+					dark: '#0D8EBB',
+				},
+				servicenow: {
+					light: '#9B87F5',
+					DEFAULT: '#9B87F5',
+					dark: '#7E69AB',
+				},
+				salesforce: {
+					light: '#00A1E0',
+					DEFAULT: '#00A1E0', 
+					dark: '#007AAA',
+				},
+				neutral: {
+					light: '#F5F7FA',
+					DEFAULT: '#8E9196',
+					dark: '#2D3748',
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
